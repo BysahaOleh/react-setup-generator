@@ -1,0 +1,38 @@
+{
+  "name": "react-setup-generator",
+  "version": "1.0.0",
+  "description": "Generator for setup React project",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "./node_modules/.bin/rollup -c -m -w",
+    "postinstall": "./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BysahaOleh/react-setup-generator.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "generator",
+    "setup",
+    "redux",
+    "redux",
+    "jest"
+  ],
+  "author": "BysahaOleh <olehbusaha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BysahaOleh/react-setup-generator/issues"
+  },
+  "homepage": "https://github.com/BysahaOleh/react-setup-generator#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "cross-env": "^5.1.3",
+    "inquirer": "^4.0.1",
+    "rollup": "^0.53.0",
+    "rollup-plugin-babel-minify": "^3.1.2",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-typescript": "^0.8.1"
+  }
+}
