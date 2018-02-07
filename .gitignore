@@ -60,6 +60,6 @@ typings/
 .env
 
 /.idea/
-bundle.js
-bundle.js.map
 
+/bundle.js
+/bundle.js.map
