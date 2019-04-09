@@ -1,3 +1,5 @@
+**DEPRECATED**
+
 <h1 align="center">React Setup Generator</h1>
 <h3 align="center"3>A simple and flexible project setup for ReactJS</h3>
 
